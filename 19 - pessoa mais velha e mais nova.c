@@ -34,11 +34,11 @@ int main (void) {
 		// BLOCO DE CÓDIGO PARA ATRIBUIR E ATUALIZAR ÀS IDADES E OS NOMES.	
 		if (auxiliar == 0) {
 		
-    	    maior = idade ;
+    	            maior = idade ;
 		    menor = idade ;
-      	    strcpy (nomenovo, nome);
-      		strcpy (nomevelho, nome);
-			auxiliar++ ;
+      	            strcpy (nomenovo, nome);
+      		    strcpy (nomevelho, nome);
+		    auxiliar++ ;
 		}
 			
 	    if (idade > maior) {
